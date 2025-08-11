@@ -28,6 +28,7 @@ namespace API_Banca.Services
                 if (transactionDto.TransactionType != "D" && transactionDto.TransactionType != "R")
                     throw new Exception("El tipo de transacción debe ser 'D' (depósito) o 'R' (retiro).");
 
+                decimal initialBalance = account.Balance;
                 decimal nuevoBalance = account.Balance;
 
                 if (transactionDto.TransactionType == "D")
@@ -52,7 +53,7 @@ namespace API_Banca.Services
                     AccountNumber = transactionDto.AccountNumber,
                     TransactionType = transactionDto.TransactionType,
                     Amount = transactionDto.Amount,
-                    InitialBalance = account.Balance,
+                    InitialBalance = initialBalance,
                     FinalBalance = nuevoBalance,
                     CreatedAt = DateOnly.FromDateTime(DateTime.Now)
                 };

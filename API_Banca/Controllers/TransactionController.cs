@@ -17,7 +17,7 @@ namespace API_Banca.Controllers
         }
 
 
-        [HttpPost("Create/Transaction")]
+        [HttpPost("Create")]
         public async Task<IActionResult> CreateTransaction([FromBody] TransactionDTO transactionDto)
         {
             try

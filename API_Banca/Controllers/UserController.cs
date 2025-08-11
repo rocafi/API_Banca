@@ -29,7 +29,7 @@ namespace API_Banca.Controllers
 
             var createdUser = await _userService.CreateUserAsync(user);
 
-            return Ok(new { user.UserID,});
+            return Ok("Usuario creado exitosamente");
         }
 
         [HttpGet("Search/{name}")]

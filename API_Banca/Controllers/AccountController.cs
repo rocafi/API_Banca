@@ -21,7 +21,7 @@ namespace API_Banca.Controllers
             return await _accountService.GetAccountByNumberAsync(number);
         }
 
-        [HttpPost("create")]
+        [HttpPost("Create")]
         public async Task<IActionResult> CreateAccount([FromBody] AccountDTO dto)
         {
             try

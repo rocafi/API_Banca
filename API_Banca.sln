@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Banca", "API_Banca\API_Banca.csproj", "{3D8A3E26-1E08-433E-A83B-1E54581F7E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Banca.Tests", "API_Banca.Tests\API_Banca.Tests.csproj", "{586E93C3-1A2D-4D57-8BF1-137565DBDCB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D8A3E26-1E08-433E-A83B-1E54581F7E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8A3E26-1E08-433E-A83B-1E54581F7E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8A3E26-1E08-433E-A83B-1E54581F7E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8A3E26-1E08-433E-A83B-1E54581F7E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586E93C3-1A2D-4D57-8BF1-137565DBDCB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586E93C3-1A2D-4D57-8BF1-137565DBDCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586E93C3-1A2D-4D57-8BF1-137565DBDCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586E93C3-1A2D-4D57-8BF1-137565DBDCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AA1BE9C-AADB-4399-8113-E42E4F26CED7}
+	EndGlobalSection
+EndGlobal

@@ -1,7 +1,7 @@
 # API_Banca
 
 ## Descripción
-API_Banca es una API RESTful desarrollada en .NET 8 que permite la gestión de usuarios, cuentas y transacciones bancarias. Utiliza una base de datos SQLite y Entity Framework Core para el acceso a datos.
+API_Banca es una API desarrollada en .NET 8 que permite la gestión de usuarios, cuentas y transacciones bancarias. Utiliza una base de datos SQLite y Entity Framework Core para el acceso a datos.
 
 ## Requisitos previos
 - .NET 8 SDK instalado
